@@ -5,3 +5,4 @@ if [[ ! -f /etc/nginx/ssl/server.crt || ! -f /etc/nginx/ssl/server.crt ]]; then
 fi
 
 nginx -g 'daemon off;'
+echo "Ngnix started"
